@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WEB PROFILE</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  
+  <header id="top" class="card">
+    <h1>CHRISTIAN DANIEL B. PISALBON</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#contact">Contact</a>
+      <a href="#feedback">Feedback</a>
+    </nav>
+  </header>
+
+ 
+  <section id="home" class="card">
+    <div class="profile-pic">
+      <img src="img/Profile.jpeg" >
+    </div>
+    <h2>CHRISTIAN DANIEL B. PISALBON</h2>
+    <p>Hello! I am Your Name, a web developer passionate about building beautiful and accessible user experiences.</p>
+    <p>I love combining creativity and technology to bring ideas to life.</p>
+    <h3>Skills</h3>
+    <ul class="skills">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+    </ul>
+    <div class="socials">
+      <a href="#"><i class="fa fa-github"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+  </section>
+
+ 
+  <section id="contact" class="card">
+    <h2>Contact Me</h2>
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required placeholder="Your full name">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required placeholder="Subject">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required placeholder="Your message..."></textarea>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </section>
+
+  
+  <section id="feedback" class="card">
+    <h2>Feedback</h2>
+    <form>
+      <fieldset>
+        <legend>Share Your Thoughts</legend>
+        <p>Rate this page:</p>
+        <label><input type="radio" name="rating" value="1" required> 1 Star</label>
+        <label><input type="radio" name="rating" value="2"> 2 Stars</label>
+        <label><input type="radio" name="rating" value="3"> 3 Stars</label>
+        <label><input type="radio" name="rating" value="4"> 4 Stars</label>
+        <label><input type="radio" name="rating" value="5"> 5 Stars</label>
+
+        <label for="feedback-type">Feedback Type</label>
+        <select id="feedback-type" name="feedback-type" required>
+          <option value="">--Select--</option>
+          <option value="bug">Bug Report</option>
+          <option value="suggestion">Suggestion</option>
+          <option value="praise">Praise</option>
+        </select>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" name="comments" rows="3" placeholder="Write your comments..."></textarea>
+
+        <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
+
+        <button type="submit">Submit Feedback</button>
+      </fieldset>
+    </form>
+  </section>
+
+ 
+  <footer class="card">
+    <p>&copy; 2025 Christian Daniel Pisalbon. All rights reserved.</p>
+    <a href="#top">Back to Top</a>
+  </footer>
+</body>
+</html>
